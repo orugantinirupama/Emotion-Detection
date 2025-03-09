@@ -65,4 +65,4 @@ http://127.0.0.1:5000/
 ├── requirements.txt         # List of dependencies
 ├── README.md                # Project documentation
 ```
-<!-- Failed to upload "Screenshot 2025-03-07 104930.png" -->
+![image]
