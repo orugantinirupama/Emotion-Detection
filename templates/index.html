@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>Emotion Detection</h2> -->
+
+    <!-- Video Camera Preview -->
+    <!-- <video id="video" autoplay></video>
+    <button id="capture">Capture Photo</button> -->
+
+    <!-- Image Upload -->
+    <!-- <input type="file" id="upload" accept="image/*"> -->
+    
+    <!-- Canvas to Display Captured Image -->
+    <!-- <canvas id="canvas"></canvas> -->
+
+    <!-- Emotion Result -->
+    <!-- <div id="result"></div> -->
+
+    <!-- Emotion Confirmation -->
+    <!-- <div id="confirmation" style="display: none;"> -->
+        <!-- <p>Did I guess the emotion correctly?</p> -->
+        <!-- <label><input type="radio" name="confirm" value="yes"> Yes</label> -->
+        <!-- <label><input type="radio" name="confirm" value="no"> No</label> -->
+    <!-- </div> -->
+
+    <!-- Remedy Suggestions -->
+    <!-- <div id="remedy" style="display: none;"></div> -->
+
+    <!-- Music Option -->
+    <!-- <div id="musicOption" style="display: none;">
+        <p>Would you like to listen to music?</p>
+        <button id="yesMusic">Yes</button>
+        <button id="noMusic">No</button>
+    </div> -->
+
+    <!-- Music Links -->
+    <!-- <div id="musicLinks" style="display: none;"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Emotion Detection</h2>
+
+    <!-- Video Camera Preview -->
+    <video id="video" autoplay></video>
+    <button id="capture">Capture Photo</button>
+
+    <!-- Image Upload -->
+    <input type="file" id="upload" accept="image/*">
+    
+    <!-- Canvas to Display Captured Image -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Emotion Result -->
+    <div id="result"></div>
+
+    <!-- Emotion Confirmation -->
+    <div id="confirmation" style="display: none;">
+        <p>Did I guess the emotion correctly?</p>
+        <label><input type="radio" name="confirm" value="yes"> Yes</label>
+        <label><input type="radio" name="confirm" value="no"> No</label>
+    </div>
+
+    <!-- Remedy Suggestions -->
+    <div id="remedy" style="display: none;"></div>
+
+    <!-- Music Option -->
+    <div id="musicOption" style="display: none;">
+        <p>Would you like to listen to music?</p>
+        <button id="yesMusic">Yes</button>
+        <button id="noMusic">No</button>
+    </div>
+
+    <!-- Music Links -->
+    <div id="musicLinks" style="display: none;"></div>
+
+    <!-- Heatmap for Emotion Trends -->
+    <h2>Emotion Frequency Heatmap</h2>
+    <canvas id="heatmap"></canvas>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+

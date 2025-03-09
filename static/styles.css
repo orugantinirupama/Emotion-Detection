@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: violet;
+}
+
+/* Video and Canvas Styling */
+video, canvas {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid violet;
+    border-radius: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: violet;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: violet;
+    transform: scale(1.05);
+}
+
+/* File Upload */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: violet;
+    color: black;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: white;
+    color: violet;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: violet;
+    color: black;
+}
+
+/* Emotion Result */
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: violet;
+}
+
+/* Confirmation Box */
+#confirmation {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(138, 43, 226, 0.2);
+    display: inline-block;
+}
+
+#confirmation p {
+    font-size: 18px;
+    font-weight: bold;
+    color: violet;
+}
+
+label {
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Remedy Section */
+#remedy {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: violet;
+}
+
+/* Music Section */
+#musicOption p {
+    font-size: 18px;
+    font-weight: bold;
+    color: violet;
+}
+
+#musicLinks {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#musicLinks a {
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#musicLinks a:hover {
+    text-decoration: underline;
+}
