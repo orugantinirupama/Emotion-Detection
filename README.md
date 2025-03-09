@@ -65,4 +65,4 @@ http://127.0.0.1:5000/
 ├── requirements.txt         # List of dependencies
 ├── README.md                # Project documentation
 ```
-![image]
+![Image](https://github.com/user-attachments/assets/0aac9500-00f4-4129-8c54-63007fbd14fb)
